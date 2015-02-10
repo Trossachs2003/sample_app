@@ -1,6 +1,12 @@
 <!--HTML5 adds the header, nav, and section elements for divisions common to many applications. In this case, the div has a CSS class as well (container).-->
 
 <header class="navbar navbar-fixed-top navbar-inverse">
+	
+	
+	
+</header>
+
+  
   <div class="container">
     <%= link_to "sample app", root_path, id: "logo" %>
     <nav>
@@ -8,7 +14,7 @@
         <li><%= link_to "Home",    root_path %></li>
         <li><%= link_to "About",  about_path %></li>
         <li><%= link_to "Help",    help_path %></li>
-        <li><%= link_to "Log in", '#' %></li>
+        <li><%= link_to "Log in", signup_path %></li>
       </ul>
     </nav>
   </div>
